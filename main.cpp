@@ -9,8 +9,6 @@
 #include "AbstractLocomotive.h"
 #include "Train.h"
 
-using namespace simasciitrain;
-
 int main() {
 	AbstractWagon *freightWagon = new FreightWagon(5);
 	std::cout << *freightWagon << std::endl;            //	[#####]
